@@ -37,8 +37,8 @@ const LoginPage = () => {
           margin: "auto",
           flexDirection:"column"
         }}>
-        <input ref={loginRef} type={"email"}></input>
-        <input ref={passwordRef} type={"password"}></input>
+        <input ref={loginRef} type={"email"} defaultValue="ilovebioz@gmail.com"></input>
+        <input ref={passwordRef} type={"password"} defaultValue="Love@123"></input>
         <button onClick={loginHandle}>Login</button>
       </div>
     </div>
